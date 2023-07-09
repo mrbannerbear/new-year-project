@@ -1,4 +1,6 @@
 body{font-family: 'Work Sans', sans-serif;}
+
+/*header starts*/
 header{background: url(images/banner/banner3.png), lightgray 50%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -26,3 +28,95 @@ padding-right: 150px; padding-top: 220px;}
         padding: 10px;
     cursor: pointer;}
     .mainbtn:hover{color: blueviolet;}
+    /*header ends*/
+
+    /*main starts*/
+
+    .section1{margin-top: 100px;}
+
+    .failures{display: flex; justify-content: center;
+    align-items: center; gap: 130px;}
+
+    .woman > img{width: 381px;
+        height: 458px;
+        flex-shrink: 0;}
+
+    .headline{color: var(--dark-01, #151414);
+        font-family: Work Sans;
+        font-size: 40px;
+        font-weight: 700; margin-bottom: 0px;}
+    
+    .maintext{color: var(--dark-02, #444343);
+        font-size: 16px;
+        line-height: 26px;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;}
+
+    .list1{list-style:circle;}
+
+    .plans{display: flex; margin-top: 50px; justify-content: space-evenly;
+    text-align: center;}
+
+    .section3{margin-top: 50px;}
+
+    .mindpic{border-radius: 8px;
+        padding: 0 130px;
+        height: 250px;
+    
+    }
+    .imgtxt{display: flex;
+        flex-direction: column;
+        text-align: left;
+    background-size: cover;}
+
+    .lastimg{margin: 130px auto;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url(images/watch.png); width: 840px;
+height: 250px; box-sizing: border-box;
+padding-left: 64px; padding-top: 60px;
+}
+
+    .postxt{color: #FFF;
+        font-size: 40px;
+        font-weight: 700;}
+
+        .btn2{margin-top: 5px;}
+        /*main ends*/
+        /*footer starts*/
+
+footer{background-color: #151414; color: #FFF; width: auto;
+height: 550px;}
+
+.footermain{display: flex; align-items: center; justify-content: space-around;
+padding: 80px;}
+
+.futurehead{color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+margin-bottom: 0px;}
+
+    .futuretext{color: #FFF;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    margin-top: 10px;}
+    .socials{display: flex; gap: 16px;}
+
+    #email{color: var(--dark-07, #F3F3F3);
+        font-size: 18px;
+    background-color:#151414; 
+    border-radius: 8px;
+    border: 1px solid #FFF; padding: 16px}
+
+    #subscribebtn{border-radius: 5px;
+        border: 0;
+        background:#005FAC;
+        color: #F3F3F3;
+        padding: 20px;
+    cursor: pointer;}
